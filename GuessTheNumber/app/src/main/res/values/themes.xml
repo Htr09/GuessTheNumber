@@ -3,14 +3,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <style name="Theme.GuessTheNumber" parent="android:Theme.Material.Light.NoActionBar">
 
-    <item name="colorPrimary">@color/navyblue</item>
-    <item name="colorPrimaryVariant">@color/darkblue</item>
-    <item name="colorOnPrimary">@color/white</item>
-
-    <item name="colorSecondary">@color/mustard</item>
-    <item name="colorSecondaryVariant">@color/orange</item>
-    <item name="colorOnSecondary">@color/black</item>
-
-    <item name="android:statusBarColor" tools:targetApi="1">?attr/colorPrimaryVariant</item>
+        <item name="colorPrimary">@color/navyblue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">@color/purple_700</item>
     </style>
 </resources>
